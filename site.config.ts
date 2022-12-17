@@ -44,7 +44,7 @@ export default siteConfig({
   //
   pageUrlOverrides: {
     '/resume': '2da1726d02a449278a4c4fb61a6a4334'
-  }
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
