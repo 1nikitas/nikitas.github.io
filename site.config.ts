@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  name: 'Man Parvesh\'s website',
+  domain: 'manparvesh.com',
   author: 'Man Parvesh Singh Randhawa',
 
   // open graph metadata (optional)
-  description: 'Example Notion Blog',
+  description: 'Man Parvesh\'s website',
 
   // social usernames (optional)
   twitter: '',
@@ -42,11 +42,9 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/resume': '2da1726d02a449278a4c4fb61a6a4334'
+  }
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
