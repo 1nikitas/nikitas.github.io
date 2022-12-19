@@ -1,24 +1,24 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
-  // the site's root Notion page (required)
-  rootNotionPageId: '1afa57a764ce4d90bc7ca7f330fb2485',
+  // the site's root Notion page (required) '1afa57a764ce4d90bc7ca7f330fb2485'
+  rootNotionPageId: 'Nikita-Kiselev_-9afffd157b044c88938538c7ebae2e41',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Man Parvesh\'s website',
+  name: 'Nikita Kiselev\'s website',
   domain: 'manparvesh.com',
   author: 'Man Parvesh Singh Randhawa',
 
   // open graph metadata (optional)
-  description: 'Man Parvesh\'s website',
+  description: 'Nikita Kiselev\'s page',
 
   // social usernames (optional)
   twitter: '',
-  github: 'manparvesh',
+  github: '/1nikitas',
   linkedin: 'manparvesh',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
@@ -53,7 +53,7 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'Contact',
-      pageId: '723d9e3644094bd184828393f5d3144a'
+      pageId: 'contact-me-ee35a1563dc0456d92dbe4c365e82890'
     }
   ]
 })
